@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'none'; base-uri 'none'; frame-ancestors 'none'">
+<meta name="referrer" content="no-referrer">
+<title>Your Small Bedroom Isn&#x27;t Small. It&#x27;s Badly Lit.</title>
+<meta name="description" content="Why one ceiling light makes a small bedroom feel smaller, the three lamp positions that fix it, and what to check before you buy.">
+<style>
+:root{
+  --ink:#191714; --body:#3a352f; --muted:#7d746a; --line:#e8e2d9;
+  --bg:#faf7f2; --card:#ffffff; --accent:#0f5c4a; --accent-ink:#0b4638;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--body);
+  font:19px/1.68 Georgia,"Iowan Old Style","Times New Roman",serif;}
+.wrap{max-width:680px;margin:0 auto;padding:0 22px}
+.sans{font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+
+/* ヘッダ: 細く。読み始めまでの距離を短くする */
+header{background:var(--card);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:baseline;gap:12px;padding:14px 22px}
+.brand{font-family:ui-sans-serif,system-ui,Arial,sans-serif;font-size:16px;font-weight:700;
+  letter-spacing:.06em;text-transform:uppercase;color:var(--ink);text-decoration:none}
+.tag{font-family:ui-sans-serif,system-ui,Arial,sans-serif;font-size:13px;color:var(--muted)}
+
+/* ヒーロー: 最初に絵を見せる。Pinterestから来た人は絵を期待している */
+.hero{margin:0 0 6px}
+.hero img{display:block;width:100%;height:auto}
+figure{margin:34px 0}
+figure img{display:block;width:100%;height:auto;border-radius:10px}
+figcaption{font-family:ui-sans-serif,system-ui,Arial,sans-serif;font-size:14px;
+  color:var(--muted);margin-top:8px}
+
+h1{font-size:40px;line-height:1.16;letter-spacing:-.02em;color:var(--ink);
+  margin:26px 0 14px;font-weight:700}
+h2{font-family:ui-sans-serif,system-ui,Arial,sans-serif;font-size:15px;font-weight:700;
+  letter-spacing:.10em;text-transform:uppercase;color:var(--accent-ink);
+  margin:52px 0 10px;padding-top:18px;border-top:2px solid var(--ink)}
+h3{font-family:ui-sans-serif,system-ui,Arial,sans-serif;font-size:20px;
+  color:var(--ink);margin:0 0 6px;font-weight:700}
+p{margin:0 0 18px}
+.lede{font-size:23px;line-height:1.5;color:var(--ink)}
+strong{color:var(--ink)}
+
+/* 拾い読み用の要約。ここだけ読めば結論が分かるようにする */
+.tldr{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--accent);
+  border-radius:8px;padding:20px 22px;margin:28px 0}
+.tldr h2{margin:0 0 10px;border:0;padding:0;font-size:13px}
+.tldr ol{margin:0;padding-left:20px}
+.tldr li{margin:0 0 8px;font-size:18px}
+
+.note{font-family:ui-sans-serif,system-ui,Arial,sans-serif;font-size:13.5px;
+  line-height:1.6;color:var(--muted);border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line);padding:12px 0;margin:26px 0}
+
+/* 商品カード: 画像を左に置いて「何の話か」を一瞬で分かるようにする */
+.pick{display:flex;gap:20px;background:var(--card);border:1px solid var(--line);
+  border-radius:12px;padding:20px;margin:20px 0}
+.pick img{width:150px;height:150px;object-fit:cover;border-radius:8px;flex:0 0 150px}
+.pick .body{min-width:0}
+.pick p{margin:0 0 12px;font-size:17.5px}
+.spec{font-family:ui-sans-serif,system-ui,Arial,sans-serif;font-size:13.5px;
+  color:var(--muted);margin:0 0 14px}
+.go{display:inline-block;font-family:ui-sans-serif,system-ui,Arial,sans-serif;
+  font-size:15px;font-weight:700;text-decoration:none;color:#fff;background:var(--accent);
+  border-radius:8px;padding:11px 20px}
+.go:hover{background:var(--accent-ink)}
+.cmp{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:34px 0}
+.cmp figure{margin:0}
+.cmp img{width:100%;height:auto;border-radius:10px;display:block}
+.cmp figcaption{font-family:ui-sans-serif,system-ui,Arial,sans-serif;font-size:13px;
+  font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);margin-top:8px}
+.cmp .sub{font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted);
+  display:block;margin-top:2px}
+@media (max-width:560px){.cmp{grid-template-columns:1fr}}
+.paid{font-family:ui-sans-serif,system-ui,Arial,sans-serif;font-size:12px;color:var(--muted);
+  margin-left:10px;letter-spacing:.04em}
+.shot{flex:0 0 150px}
+.shot img{width:150px;height:150px;object-fit:cover;border-radius:8px;display:block}
+.imgnote{display:block;font-family:ui-sans-serif,system-ui,Arial,sans-serif;font-size:11.5px;
+  line-height:1.35;color:var(--muted);margin-top:6px;max-width:150px}
+
+a{color:var(--accent-ink)}
+ul.guides{list-style:none;padding:0;margin:28px 0 0}
+ul.guides li{border-top:1px solid var(--line);padding:22px 0}
+ul.guides a{font-family:ui-sans-serif,system-ui,Arial,sans-serif;font-size:22px;
+  font-weight:700;text-decoration:none;color:var(--ink);line-height:1.3;display:block}
+ul.guides p{margin:6px 0 0;font-size:17px;color:var(--muted)}
+footer{border-top:1px solid var(--line);margin-top:64px;padding:22px 0 60px;
+  font-family:ui-sans-serif,system-ui,Arial,sans-serif;font-size:13.5px;color:var(--muted)}
+footer a{color:var(--muted)}
+@media (max-width:560px){
+  body{font-size:18px}
+  h1{font-size:31px}
+  .lede{font-size:20px}
+  .pick{flex-direction:column;gap:14px}
+  .shot,.shot img{width:100%;flex:none}
+  .shot img{height:200px}
+  .imgnote{max-width:none}
+}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<a class="brand" href="../index.html">Rooms and Roads</a>
+<div class="tag">Small-space home ideas and quiet places to travel</div>
+</div></header>
+<div class="wrap">
+<div class="hero"><img src="../assets/hero-bedroom-lighting.jpg" alt="A small bedroom lit by low lamps instead of a ceiling light" width="1600" height="900"></div>
+<h1>Your Small Bedroom Isn&#x27;t Small. It&#x27;s Badly Lit.</h1>
+<p class="lede">Most small bedrooms have exactly one light: in the middle of the ceiling, pointing down. That one light can make a bigger difference than the wall colour, the bed size, or the amount of stuff in the room.</p>
+<div class="tldr"><h2>The short version</h2><ol><li>A ceiling light lets the corners go dark, and your eye reads dark corners as the wall. The room measures the same and looks smaller.</li><li>Put light in three places instead: low beside the bed, standing height in the far corner, and something overhead that throws pattern rather than a flat disc.</li><li>Buy on 2700K bulbs, a shade that spreads light, and a cord long enough to reach where the lamp will actually stand.</li></ol></div>
+<p class="note">As an Amazon Associate I earn from qualifying purchases. Links below are affiliate links (#ad) - they cost you nothing extra. Nothing here is a paid placement, and no brand sees this page before it goes up.</p>
+<h2>Why one ceiling light makes a room look smaller</h2>
+<p>A ceiling light puts the brightest point in the centre and lets the corners fall dark. Your eye can read those darker edges as the boundary of the room, so the space feels smaller than it measures.</p>
+<p>Lamps do the opposite. Light near the walls makes the edges feel less heavy, so the room reads wider. It is why a hotel room with five small lamps feels generous and your bedroom with one bright one does not.</p>
+<div class="cmp"><figure><img src="../assets/cmp-before.jpg" alt="One ceiling light" width="800" height="600"><figcaption>One ceiling light<span class="sub">Same room, same furniture. The corners go dark and the space stops there.</span></figcaption></figure><figure><img src="../assets/cmp-after.jpg" alt="Three lamps instead" width="800" height="600"><figcaption>Three lamps instead<span class="sub">Nothing moved except the light. The corners are lit, so the room reads wider.</span></figcaption></figure></div>
+<h2>The three positions that do the work</h2>
+<p><strong>Low and beside the bed.</strong> A shaded lamp at mattress height, not above your shoulder. Anything higher shines into your eyes when you sit up, which is why you stop using it after a week.</p>
+<p><strong>Standing height, across the room.</strong> A floor lamp in the far corner. This is the one everyone skips, and it is the one that stretches the room - it lights the wall you are looking at, not the one you are sitting against.</p>
+<p><strong>Something overhead that is not flat.</strong> If you keep a ceiling fixture, use a shade that throws pattern instead of a flat disc of light.</p>
+<figure><img src="../assets/fig-floor-lamp.jpg" alt="The far corner is the position most people skip. It is the one that makes the room read as bigger." width="1200" height="800"><figcaption>The far corner is the position most people skip. It is the one that makes the room read as bigger.</figcaption></figure>
+<h2>What to check before you buy</h2>
+<p><strong>Bulb colour: around 2700K.</strong> Cooler light tends to feel functional rather than restful, so warmer suits a bedroom. It is printed on the box, and it is the easiest thing to get wrong.</p>
+<p><strong>Shade material.</strong> Opaque shades make a pool of light; woven and fabric shades spread it. In a small room you want spread.</p>
+<p><strong>Cord length.</strong> Measure from the socket to where the lamp will actually stand, not to the wall. A few extra inches saves an awkward return.</p>
+<p><strong>Base width: under 15cm</strong> for a small nightstand, or the lamp takes the whole surface and you have lost the table.</p>
+<h2>What we would actually buy</h2>
+<div class="pick"><div class="shot"><img src="../assets/pick-rattan-pendant.jpg" alt="Woven rattan pendant" width="800" height="800"><span class="imgnote">Our illustration of the look - not the product photo</span></div><div class="body"><h3>Woven rattan pendant</h3><p>A ceiling light that does not look like a ceiling light. The woven shade throws a soft pattern onto the wall instead of one flat pool of light, which is the cheapest way to stop a rented room reading as a rented room. Hang it lower than feels right - around 150cm off the floor beside a bed, not centred at ceiling height.</p><p class="spec"><strong>Best for:</strong> renters who cannot change the fitting but can swap the shade</p><a class="go" href="https://rowabillc.pxf.io/c/7528763/2519345/30391" target="_blank" rel="nofollow sponsored noopener noreferrer">See it &rarr;</a><span class="paid">paid link</span></div></div>
+<div class="pick"><div class="shot"><img src="../assets/pick-ceramic-lamp.jpg" alt="Warm off-white ceramic table lamp" width="800" height="800"><span class="imgnote">Our illustration of the look - not the product photo</span></div><div class="body"><h3>Warm off-white ceramic table lamp</h3><p>The bedside one. Off-white ceramic disappears into a warm wall, which is the point - the lamp should not be the thing you notice. Glossy black and chrome break a one-colour room. Check the shade is fabric, not plastic.</p><p class="spec"><strong>Best for:</strong> a small nightstand where the lamp cannot take the whole surface</p><a class="go" href="https://www.amazon.com/dp/B0G6K5HT49/?tag=ichinyanpinaf-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See it on Amazon &rarr;</a><span class="paid">paid link</span></div></div>
+<h2>If you only do one thing</h2><p>Put a floor lamp in the far corner. It is the cheapest change on this page and the only one that changes how big the room feels rather than how nice it looks. Everything else is refinement.</p>
+<div class="tldr"><h2>How we choose</h2><p>We look for pieces that change how a small room works, not the cheapest option and not the most photographed one. Everything here has to survive a rental: no drilling, no permanent fittings, nothing that needs a second person to install.</p><p>Room images on this site are our own illustrations, not photographs of the products. We link to the retailer so you can see the real item.</p><p class="spec">Written and selected by Rooms and Roads &middot; Updated August 2026 &middot; links checked August 2026</p></div>
+<footer>
+<p>As an Amazon Associate I earn from qualifying purchases. Some links on this site are affiliate links, which means
+we may earn a commission at no extra cost to you.</p>
+<p><a href="../disclosure.html">Affiliate disclosure</a> &middot;
+<a href="../privacy.html">Privacy</a></p>
+</footer>
+</div>
+</body>
+</html>
