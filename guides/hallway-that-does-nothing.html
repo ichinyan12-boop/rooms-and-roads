@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'none'; base-uri 'none'; frame-ancestors 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="p:domain_verify" content="5024ffec974f7c15f0ffca546bd67ead">
+<title>The Hallway Everyone Wastes Is The Easiest Room To Fix</title>
+<meta name="description" content="A hallway is the one space everyone walks through twice a day and nobody furnishes. Three changes that fit a narrow space without blocking it.">
+<style>
+:root{
+  --ink:#191714; --body:#3a352f; --muted:#7d746a; --line:#e8e2d9;
+  --bg:#faf7f2; --card:#ffffff; --accent:#0f5c4a; --accent-ink:#0b4638;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--body);
+  font:19px/1.68 Georgia,"Iowan Old Style","Times New Roman",serif;}
+.wrap{max-width:680px;margin:0 auto;padding:0 22px}
+.sans{font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+
+/* ヘッダ: 細く。読み始めまでの距離を短くする */
+header{background:var(--card);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:baseline;gap:12px;padding:14px 22px}
+.brand{font-family:ui-sans-serif,system-ui,Arial,sans-serif;font-size:16px;font-weight:700;
+  letter-spacing:.06em;text-transform:uppercase;color:var(--ink);text-decoration:none}
+.tag{font-family:ui-sans-serif,system-ui,Arial,sans-serif;font-size:13px;color:var(--muted)}
+
+/* ヒーロー: 最初に絵を見せる。Pinterestから来た人は絵を期待している */
+.hero{margin:0 0 6px}
+.hero img{display:block;width:100%;height:auto}
+figure{margin:34px 0}
+figure img{display:block;width:100%;height:auto;border-radius:10px}
+figcaption{font-family:ui-sans-serif,system-ui,Arial,sans-serif;font-size:14px;
+  color:var(--muted);margin-top:8px}
+
+h1{font-size:40px;line-height:1.16;letter-spacing:-.02em;color:var(--ink);
+  margin:26px 0 14px;font-weight:700}
+h2{font-family:ui-sans-serif,system-ui,Arial,sans-serif;font-size:15px;font-weight:700;
+  letter-spacing:.10em;text-transform:uppercase;color:var(--accent-ink);
+  margin:52px 0 10px;padding-top:18px;border-top:2px solid var(--ink)}
+h3{font-family:ui-sans-serif,system-ui,Arial,sans-serif;font-size:20px;
+  color:var(--ink);margin:0 0 6px;font-weight:700}
+p{margin:0 0 18px}
+.lede{font-size:23px;line-height:1.5;color:var(--ink)}
+strong{color:var(--ink)}
+
+/* 拾い読み用の要約。ここだけ読めば結論が分かるようにする */
+.tldr{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--accent);
+  border-radius:8px;padding:20px 22px;margin:28px 0}
+.tldr h2{margin:0 0 10px;border:0;padding:0;font-size:13px}
+.tldr ol{margin:0;padding-left:20px}
+.tldr li{margin:0 0 8px;font-size:18px}
+
+.note{font-family:ui-sans-serif,system-ui,Arial,sans-serif;font-size:13.5px;
+  line-height:1.6;color:var(--muted);border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line);padding:12px 0;margin:26px 0}
+
+/* 商品カード: 画像を左に置いて「何の話か」を一瞬で分かるようにする */
+.pick{display:flex;gap:20px;background:var(--card);border:1px solid var(--line);
+  border-radius:12px;padding:20px;margin:20px 0}
+.pick img{width:150px;height:150px;object-fit:cover;border-radius:8px;flex:0 0 150px}
+.pick .body{min-width:0}
+.pick p{margin:0 0 12px;font-size:17.5px}
+.spec{font-family:ui-sans-serif,system-ui,Arial,sans-serif;font-size:13.5px;
+  color:var(--muted);margin:0 0 14px}
+.go{display:inline-block;font-family:ui-sans-serif,system-ui,Arial,sans-serif;
+  font-size:15px;font-weight:700;text-decoration:none;color:#fff;background:var(--accent);
+  border-radius:8px;padding:11px 20px}
+.go:hover{background:var(--accent-ink)}
+.cmp{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:34px 0}
+.cmp figure{margin:0}
+.cmp img{width:100%;height:auto;border-radius:10px;display:block}
+.cmp figcaption{font-family:ui-sans-serif,system-ui,Arial,sans-serif;font-size:13px;
+  font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);margin-top:8px}
+.cmp .sub{font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted);
+  display:block;margin-top:2px}
+@media (max-width:560px){.cmp{grid-template-columns:1fr}}
+.paid{font-family:ui-sans-serif,system-ui,Arial,sans-serif;font-size:12px;color:var(--muted);
+  margin-left:10px;letter-spacing:.04em}
+.shot{flex:0 0 150px}
+.shot img{width:150px;height:150px;object-fit:cover;border-radius:8px;display:block}
+.imgnote{display:block;font-family:ui-sans-serif,system-ui,Arial,sans-serif;font-size:11.5px;
+  line-height:1.35;color:var(--muted);margin-top:6px;max-width:150px}
+
+a{color:var(--accent-ink)}
+ul.guides{list-style:none;padding:0;margin:28px 0 0}
+ul.guides li{border-top:1px solid var(--line);padding:22px 0}
+ul.guides a{font-family:ui-sans-serif,system-ui,Arial,sans-serif;font-size:22px;
+  font-weight:700;text-decoration:none;color:var(--ink);line-height:1.3;display:block}
+ul.guides p{margin:6px 0 0;font-size:17px;color:var(--muted)}
+footer{border-top:1px solid var(--line);margin-top:64px;padding:22px 0 60px;
+  font-family:ui-sans-serif,system-ui,Arial,sans-serif;font-size:13.5px;color:var(--muted)}
+footer a{color:var(--muted)}
+@media (max-width:560px){
+  body{font-size:18px}
+  h1{font-size:31px}
+  .lede{font-size:20px}
+  .pick{flex-direction:column;gap:14px}
+  .shot,.shot img{width:100%;flex:none}
+  .shot img{height:200px}
+  .imgnote{max-width:none}
+}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<a class="brand" href="../index.html">Rooms and Roads</a>
+<div class="tag">Small-space home ideas and quiet places to travel</div>
+</div></header>
+<div class="wrap">
+<h1>The Hallway Everyone Wastes Is The Easiest Room To Fix</h1>
+<p class="lede">Hallways get left empty because everything sold as furniture is too deep for them. The width is the constraint, and once you accept it the room stops being a corridor and starts being the place you drop things.</p>
+<div class="tldr"><h2>The short version</h2><ol><li>Depth is the only measurement that matters here. Under 30cm and you can still walk past it with a coat on; over that and the hallway becomes a squeeze.</li><li>A mirror at the end of a hallway is not decoration - it is the cheapest way to stop the space reading as a dead end.</li><li>A runner covers the strip that wears out first, and it is the one rug in the house that genuinely earns its keep.</li><li>Do the landing spot before the styling. Keys, post and one lamp beat a decorated shelf you cannot use.</li></ol></div>
+<p class="note">As an Amazon Associate I earn from qualifying purchases. Links below are affiliate links (#ad) - they cost you nothing extra. Nothing here is a paid placement, and no brand sees this page before it goes up.</p>
+<h2>Why the hallway stays empty</h2>
+<p>Most console tables are sold for the back of a sofa, which is a different job with a different depth. In a hallway anything deeper than about 30cm turns the walk into a sidestep, and the piece quietly gets removed.</p>
+<p>The second reason is that a hallway has no obvious purpose, so nothing obvious gets bought for it. Give it one job - the place things land on the way in - and what to buy becomes clear.</p>
+<h2>The mirror is doing more than you think</h2>
+<p>A hallway usually ends in a blank wall, and a blank wall at the end of a narrow space reads as a stop. A mirror there gives the eye somewhere further to go, which is why hallways with mirrors feel longer than the tape measure says they are.</p>
+<p>Hang it opposite or beside a light source rather than facing a dark wall - a mirror can only reflect what is there. Round shapes are worth the small extra cost in a corridor of straight lines and door frames.</p>
+<h2>What to check before you buy</h2>
+<p><strong>Measure the door swing, not just the wall.</strong> The usual mistake is a table that fits the wall but stops the front door opening fully.</p>
+<p><strong>Runner width before length.</strong> A runner that is wider than the walkable strip curls at the edges. Measure the clear floor, then buy the longest one that fits it.</p>
+<p><strong>Two shelves, not drawers.</strong> Drawers in a hallway collect things nobody looks at again. Open shelves stay honest.</p>
+<p><strong>Add light last.</strong> A hallway lit only by the ceiling is flat; a small lamp on the table changes it more than anything else on this page.</p>
+<h2>What we would actually buy</h2>
+<div class="pick"><div class="shot"><img src="../assets/prod-B0BYSF63GV.jpg" alt="Narrow console table" width="800" height="800"></div><div class="body"><h3>Narrow console table</h3><p>The shape that actually fits. Narrow enough to walk past with a coat on, with open shelves underneath for the things that pile up by the door. Measure the clear width of your hallway first and leave at least 70cm to walk through.</p><p class="spec"><strong>Best for:</strong> a hallway where a normal table would block the walk</p><a class="go" href="https://www.amazon.com/dp/B0BYSF63GV/?tag=ichinyanpinaf-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See it on Amazon &rarr;</a><span class="paid">paid link</span></div></div>
+<div class="pick"><div class="shot"><img src="../assets/prod-B096H7G88Y.jpg" alt="Round wall mirror" width="800" height="800"></div><div class="body"><h3>Round wall mirror</h3><p>Put it at the end of the hallway or above the table. A round frame breaks up a corridor made entirely of straight lines, and it is the one thing on this page that changes how long the space feels.</p><p class="spec"><strong>Best for:</strong> a hallway that ends in a blank wall</p><a class="go" href="https://www.amazon.com/dp/B096H7G88Y/?tag=ichinyanpinaf-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See it on Amazon &rarr;</a><span class="paid">paid link</span></div></div>
+<div class="pick"><div class="shot"><img src="../assets/prod-B0D2V2FMW9.jpg" alt="Hallway runner" width="800" height="800"></div><div class="body"><h3>Hallway runner</h3><p>The strip of floor by the door wears out before anywhere else in the house, so this is the rug that pays for itself. Non-slip matters more than pattern here - it is the surface people arrive on with wet shoes.</p><p class="spec"><strong>Best for:</strong> the walkway that takes the most traffic in the house</p><a class="go" href="https://www.amazon.com/dp/B0D2V2FMW9/?tag=ichinyanpinaf-20" target="_blank" rel="nofollow sponsored noopener noreferrer">See it on Amazon &rarr;</a><span class="paid">paid link</span></div></div>
+<h2>If you only do one thing</h2><p>Give the hallway one job before you decorate it. A place to put keys down, something to look at at the end, and a rug on the strip that wears out. Everything else is optional.</p>
+<div class="tldr"><h2>How we choose</h2><p>We look for pieces that change how a small room works, not the cheapest option and not the most photographed one. Everything here has to survive a rental: no drilling, no permanent fittings, nothing that needs a second person to install.</p><p>Room images on this site are our own illustrations, not photographs of the products. We link to the retailer so you can see the real item.</p><p class="spec">Written and selected by Rooms and Roads &middot; Updated August 2026 &middot; links checked August 2026</p></div>
+<footer>
+<p>As an Amazon Associate I earn from qualifying purchases. Some links on this site are affiliate links, which means
+we may earn a commission at no extra cost to you.</p>
+<p><a href="../disclosure.html">Affiliate disclosure</a> &middot;
+<a href="../privacy.html">Privacy</a></p>
+</footer>
+</div>
+</body>
+</html>
